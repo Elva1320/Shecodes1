@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <style>
+    h1 {
+      font-size: 34px;
+      line-height: 48px;
+      margin: 0;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      /* padding-inline-start: 40px; */
+   }
+
+    li{
+      display: list-item;
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+    max-width: 400px;
+    margin: 0 auto;
+    }
+
+    .pp {
+      display: block;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h2 {
+      font-size: 34px;
+      margin: 0;
+      font-size: 34px;
+      line-height: 48px;
+      font-weight: 400;
+    }
+
+    h3 {
+      display: block;
+      font-size: 1.17em;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+    }
+
+    .thirteen {
+      margin: 0;
+      font-size: 34px;
+      line-height: 48px;
+      font-weight: 400;
+    }
+
+    p{
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-size: 18px;
+      opacity: 0.7;
+      text-align: center;
+      font-family: monospace;
+    }
+
+    button {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid #F495BF;
+    background: #F495BF;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 24px;
+    border-radius: 30px;
+    transition: all 200ms ease;
+    box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+    cursor: pointer;
+    }
+
+    li:hover {
+  box-shadow: 0 0 11px rgb(244, 149, 191, .9); 
+  background:rgba(108, 175, 107, 0.712) ;
+}
+    
+  button:hover {
+  color:#FFF; 
+  background:#8ABD87;
+}
+
+body {
+  background: linear-gradient(113.5deg, rgb(234, 234, 234) 22.3%, rgb(201, 234, 211) 56.6%, rgb(255, 180, 189) 90.9%);
+}
+
+.flower {
+
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="pp">
+    <h1>
+      🌤
+      <br />
+      Currently 21&#176; in Hawaii <span class="flower">🌺</span>
+    </h1>
+    <h2 class="thirteen">13&#176; / <strong>23&#176</strong></h2>
+    <ul>
+      <li>
+        <h3>🌧️Tomorrow</h3>
+        <p>10&#176; / <strong>22&#176;</strong></p>
+      </li>
+      <li>
+        <h3>☁️Saturday</h3>
+        <p>15&#176; / <strong>17&#176;</strong></p>
+      </li>
+      <li>
+        <h3>☀️Sunday</h3>
+        <p>25&#176; / <strong>28&#176;</strong></p>
+      </li>
+    </ul>
+    <button>
+      Change City
+    </button>
+    <p>Coded by Elva Pineda</p>
+  </div>
+</body>
+
+</html>
